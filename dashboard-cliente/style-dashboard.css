@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+   
+    background-image: url(https://mudandote.mx/wp-content/uploads/2021/11/Mudanza.jpg);
+}  
+header .h1{
+    gap: 1rem;
+} 
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.articulos-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
