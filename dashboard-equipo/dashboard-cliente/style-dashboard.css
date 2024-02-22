@@ -90,10 +90,19 @@ a {
     border:#b9b4b2 3px solid ;
     width: 20%;
     height: 650px;
-    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   margin: 0 auto;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 6px rgb(61, 61, 61)
+}
+
+.container_usuario b{
+   align-items: center;
+   
 }
 /** End container usuario **/
 /** footer **/
@@ -111,15 +120,7 @@ a {
     margin-top: 15px;
  }
  
- .container_usuario b {
-    margin-left: 30%;
- }
- .container_usuario img{
-    align-items: center;
-    margin-top: 10px;
-    width: auto;
-    height: 80px;
- }
+ 
 
  .copyright{
     background-color: #FF7601;
