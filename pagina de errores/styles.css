@@ -1,0 +1,139 @@
+body {
+	background-color: #fff;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.container img{
+
+	width: 500px;
+	height: 250px;
+	
+}
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 1000px;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 30px;
+	
+}
+header{
+	
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+	display: flex;
+}
+
+
+.title {
+	font-size: 3em;
+	margin-bottom: 0;
+}
+
+.subtitle {
+	font-size: 1.2em;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.message {
+	font-size: 1.1em;
+	margin-bottom: 30px;
+}
+
+.button {
+	
+	color: #131111;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 100px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 20px;
+	width: 100px;
+	
+	transition: background-color 0.3s ease;
+	background: linear-gradient(to bottom, #ff6b3d, #ecf83d);
+}
+
+
+
+
+.logo img{
+	margin: 0;
+	margin-top: 10px;
+	width: 60px;
+	height: 50px;
+	left: 300px;
+	margin-left: 20px;
+}
+
+nav li {
+	list-style: none;
+	margin: 0;
+	margin-left: 5px;
+	padding: 0;
+	left: 700px;
+	
+	
+}
+
+nav a{
+	color: #ff6b3d;
+}
+
+.mancha img{
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 20px;
+  right: 250px;
+  z-index: -1;
+  transform: rotate(10deg);
+
+}
+.camion img{
+	margin-top: 50px;
+}
+
+.camion .text b {
+  position: absolute;
+  top: 28%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: #494949;
+  font-size: 130px;
+  text-align: center;
+	
+	
+  }
+
+.signo-pregunta img{
+  left: 500px;
+  width: 20%;
+  height: auto;
+  position: absolute;
+  top: 50px;
+   z-index: -1;
+   transform: rotate(19deg);
+}
+
+.user {
+	
+	position: absolute;
+	margin-top:10px;
+	margin-left:1300px;
+}
+.user img {
+	
+	width: 40px;
+	height: auto;
+}
